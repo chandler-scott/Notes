@@ -1,4 +1,18 @@
-Questions:
+-------- Definitions --------
+  - linear-time algorithms: algorithms with complexities, e.g., n and 100n.
+  - quadratic-time algorithms: algorithms with complexities, e.g., n² and 0.01n²
+  - pure quadratic: functions that contain quadratic terms but no linear term.
+  - complete quadratic: functions that contain both quadratic and linear terms.
+
+-------- Notes --------
+  - normally, an algorithm has to be θ(nln(n)) to assume that it can process extremely large instances in a tolerable amount of time.
+  - big O sets the upper bound for a complexity function.
+  - Ω sets the lower bound for a complexity function.
+  - θ(f(n)) = O(f(n))  ∩  Ω(f(n))
+  - if g(n) ∈  θ(f(n)), we say that g(n) is order of f(n)
+
+
+-------- Questions --------
   The book states  that we can analyze algorithms for their time and space complexity (CPU cycles and Memory). Are there any other metrics we use to analyze algorithms or are these two metrics what we are mainly concerned with?
 
   How does one calculate A(n) "Average complexity" given some probabilty distribution? How do you assign probability distribution to inputs?
@@ -9,6 +23,12 @@ Questions:
 
   Could you explain how a basic operation for algorithm 1 may take t while the basic operation for algorithm 2 may tacke 1000t? Would an example be algorithm 1 being: n+1 and algrithm 2 being: n x (complex math)?
 
-  Are overhead and control instructions ever significant compared to basic operations?
+  Assuming that n is relatively large, are overhead and control instructions ever significant compared to basic operations?
 
-  
+  Could you explain complexity functions θ(x)? What does θ represent?
+
+  Could you explain the difference between f(x), g(x), and θ(x)?
+
+  Is f(x) ϵ g(x) if f(x) ≤ g(x)?
+
+  Can you explain Example 1.16 on page 56?
