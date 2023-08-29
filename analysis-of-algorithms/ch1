@@ -1,0 +1,14 @@
+Questions:
+  The book states  that we can analyze algorithms for their time and space complexity (CPU cycles and Memory). Are there any other metrics we use to analyze algorithms or are these two metrics what we are mainly concerned with?
+
+  How does one calculate A(n) "Average complexity" given some probabilty distribution? How do you assign probability distribution to inputs?
+
+  How do we derive the A(n) function with the probability that x is not present in the array? Could you walk through building the formula?
+
+  How can we do A(n) and its probability distribution if we don't have a standard gaussian distribution?
+
+  Could you explain how a basic operation for algorithm 1 may take t while the basic operation for algorithm 2 may tacke 1000t? Would an example be algorithm 1 being: n+1 and algrithm 2 being: n x (complex math)?
+
+  Are overhead and control instructions ever significant compared to basic operations?
+
+  
